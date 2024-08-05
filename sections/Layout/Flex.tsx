@@ -1,5 +1,5 @@
 import { clx } from "$store/sdk/clx.ts";
-import { Section } from "deco/blocks/section.ts";
+import type { Section as ISection } from "deco/blocks/section.ts";
 import type { ComponentChildren } from "preact";
 import { flex } from "../../constants.tsx";
 
@@ -8,7 +8,7 @@ import { flex } from "../../constants.tsx";
  */
 export interface Props {
   children?: ComponentChildren | null;
-  sectionChildrens?: Section[];
+  sectionChildrens?: ISection[];
   gap?: {
     /** @default 2 */
     mobile?: "1" | "2" | "4" | "8" | "12" | "16";

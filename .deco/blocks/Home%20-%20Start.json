@@ -1,1 +1,13 @@
-{"seo":{"type":"website","image":"https://www.deco.cx/decocx-meta-en.png","description":"This is a site template for deco.cx"},"global":[],"routes":[{"__resolveType":"website/loaders/pages.ts"}],"caching":{"directives":[]},"commerce":{"platform":"other"},"platform":"custom","__resolveType":"site/apps/site.ts"}
+{
+  "seo": {
+    "type": "website",
+    "image": "https://www.deco.cx/decocx-meta-en.png",
+    "description": "This is a site template for deco.cx"
+  },
+  "global": [],
+  "routes": [{ "__resolveType": "website/loaders/pages.ts" }],
+  "caching": { "directives": [] },
+  "commerce": { "platform": "other" },
+  "platform": "custom",
+  "__resolveType": "site/apps/site.ts"
+}
