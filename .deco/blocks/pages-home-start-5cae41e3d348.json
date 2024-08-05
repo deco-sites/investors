@@ -1,1 +1,138 @@
-{"name":"Home","path":"/","sections":[{"title":"Investors - deco.cx","noIndexing":true,"description":"deco.cx investors website","__resolveType":"website/sections/Seo/Seo.tsx"},{"links":{"items":[{"href":"/apr-may-24.pdf","label":"April/May 2024"},{"href":"/feb-mar-24.pdf","label":"February/March 2024"},{"href":"/dec-jan-24.pdf","label":"December 23/January 2024"},{"href":"/oct-nov-23.pdf","icon":"CreditCard","label":"October/November 2023"},{"href":"/aug-sep-23.pdf","icon":"CreditCard","label":"August/September 2023"},{"href":"/jun-jul-23.pdf","icon":"CreditCard","label":"June/July 2023"},{"href":"/may-jun-23.pdf","icon":"CreditCard","label":"May/June 2023"},{"href":"/apr-23.pdf","icon":"CreditCard","label":"April 2023"},{"href":"/mar-23.pdf","icon":"CreditCard","label":"March 2023"},{"href":"/feb-23.pdf","icon":"CreditCard","label":"February 2023"},{"href":"/jan-23.pdf","icon":"CreditCard","label":"January 2023"}],"style":{"textColor":"#000000","gradientColors":{"neutral":[{"color":"#2fd07f"},{"color":"#1ae000"}]},"backgroundColors":{"hover":[{"color":"#6b6b6b"},{"color":"#c4c4c4"}],"neutral":[{"color":"#919191"},{"color":"#cccccc"}]}}},"header":{"link":"https://deco.cx","logo":{"img":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/3fa15eff-add9-4974-864c-7f952bca5180","width":150,"height":63},"title":"Investors","textColor":"#000000","description":"Check our latest Investor Updates"},"social":[{"href":"https://www.instagram.com/deco.cx/","label":"Instagram","iconColor":"#000000"},{"href":"https://www.linkedin.com/company/deco-cx","label":"Linkedin","iconColor":"#000000"},{"href":"https://deco.cx/discord","label":"Discord","iconColor":"#000000"}],"background":{"backgroundColor":"#e5fbe5"},"__resolveType":"site/sections/Links/LinkTree.tsx"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "title": "Investors - deco.cx",
+      "noIndexing": true,
+      "description": "deco.cx investors website",
+      "__resolveType": "website/sections/Seo/Seo.tsx"
+    },
+    {
+      "links": {
+        "items": [
+          {
+            "href": "/jun-jul-24.pdf",
+            "label": "June/July 2024"
+          },
+          {
+            "href": "/apr-may-24.pdf",
+            "label": "April/May 2024"
+          },
+          {
+            "href": "/feb-mar-24.pdf",
+            "label": "February/March 2024"
+          },
+          {
+            "href": "/dec-jan-24.pdf",
+            "label": "December 23/January 2024"
+          },
+          {
+            "href": "/oct-nov-23.pdf",
+            "icon": "CreditCard",
+            "label": "October/November 2023"
+          },
+          {
+            "href": "/aug-sep-23.pdf",
+            "icon": "CreditCard",
+            "label": "August/September 2023"
+          },
+          {
+            "href": "/jun-jul-23.pdf",
+            "icon": "CreditCard",
+            "label": "June/July 2023"
+          },
+          {
+            "href": "/may-jun-23.pdf",
+            "icon": "CreditCard",
+            "label": "May/June 2023"
+          },
+          {
+            "href": "/apr-23.pdf",
+            "icon": "CreditCard",
+            "label": "April 2023"
+          },
+          {
+            "href": "/mar-23.pdf",
+            "icon": "CreditCard",
+            "label": "March 2023"
+          },
+          {
+            "href": "/feb-23.pdf",
+            "icon": "CreditCard",
+            "label": "February 2023"
+          },
+          {
+            "href": "/jan-23.pdf",
+            "icon": "CreditCard",
+            "label": "January 2023"
+          }
+        ],
+        "style": {
+          "textColor": "#000000",
+          "gradientColors": {
+            "neutral": [
+              {
+                "color": "#2fd07f"
+              },
+              {
+                "color": "#1ae000"
+              }
+            ]
+          },
+          "backgroundColors": {
+            "hover": [
+              {
+                "color": "#6b6b6b"
+              },
+              {
+                "color": "#c4c4c4"
+              }
+            ],
+            "neutral": [
+              {
+                "color": "#919191"
+              },
+              {
+                "color": "#cccccc"
+              }
+            ]
+          }
+        }
+      },
+      "header": {
+        "link": "https://deco.cx",
+        "logo": {
+          "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/3fa15eff-add9-4974-864c-7f952bca5180",
+          "width": 150,
+          "height": 63
+        },
+        "title": "Investors",
+        "textColor": "#000000",
+        "description": "Check our latest Investor Updates"
+      },
+      "social": [
+        {
+          "href": "https://www.instagram.com/deco.cx/",
+          "label": "Instagram",
+          "iconColor": "#000000"
+        },
+        {
+          "href": "https://www.linkedin.com/company/deco-cx",
+          "label": "Linkedin",
+          "iconColor": "#000000"
+        },
+        {
+          "href": "https://deco.cx/discord",
+          "label": "Discord",
+          "iconColor": "#000000"
+        }
+      ],
+      "background": {
+        "backgroundColor": "#e5fbe5"
+      },
+      "__resolveType": "site/sections/Links/LinkTree.tsx"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
