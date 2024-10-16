@@ -12,6 +12,10 @@
       "links": {
         "items": [
           {
+            "href": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/investors/43dd810b-86dd-4e56-a398-038129e85cf8/aug-sep-24.pdf",
+            "label": "August/September 2024"
+          },
+          {
             "href": "/jun-jul-24.pdf",
             "label": "June/July 2024"
           },
