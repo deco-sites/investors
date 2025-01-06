@@ -12,6 +12,10 @@
       "links": {
         "items": [
           {
+            "href": "https://data.decoassets.com/investors/25306d46-055f-492b-ab49-e53dd412d6cb/2025-jan.pdf",
+            "label": "January 2025 (Q4 2024)"
+          },
+          {
             "href": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/investors/43dd810b-86dd-4e56-a398-038129e85cf8/aug-sep-24.pdf",
             "label": "August/September 2024"
           },
