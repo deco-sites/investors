@@ -12,6 +12,10 @@
       "links": {
         "items": [
           {
+            "label": "April 2025 (Q1 2025)",
+            "href": "https://assets.decocache.com/investors/0769c027-6f18-4267-8fc7-6158aca13229/q1-2025.pdf"
+          },
+          {
             "href": "https://data.decoassets.com/investors/25306d46-055f-492b-ab49-e53dd412d6cb/2025-jan.pdf",
             "label": "January 2025 (Q4 2024)"
           },
@@ -71,9 +75,9 @@
             "label": "February 2023"
           },
           {
+            "label": "January 2023",
             "href": "/jan-23.pdf",
-            "icon": "CreditCard",
-            "label": "January 2023"
+            "icon": "CreditCard"
           }
         ],
         "style": {
