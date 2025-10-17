@@ -12,8 +12,13 @@
       "links": {
         "items": [
           {
-            "label": "July 2025 (Q2 2025)",
-            "href": "https://assets.decocache.com/investors/b3fa564a-9de0-4ed9-a792-ebf0a07720f7/q2-2025.pdf"
+            "label": "October 2025 (Q3 2025)",
+            "icon": "ArrowsPointingOut",
+            "href": "https://assets.decocache.com/investors/75334a29-10f3-48cd-8d35-c18ca3b70a63/October-13th-2025---Investor-Updates.pdf"
+          },
+          {
+            "href": "https://assets.decocache.com/investors/b3fa564a-9de0-4ed9-a792-ebf0a07720f7/q2-2025.pdf",
+            "label": "July 2025 (Q2 2025)"
           },
           {
             "href": "https://assets.decocache.com/investors/0769c027-6f18-4267-8fc7-6158aca13229/q1-2025.pdf",
@@ -69,9 +74,9 @@
             "label": "April 2023"
           },
           {
+            "label": "March 2023",
             "href": "/mar-23.pdf",
-            "icon": "CreditCard",
-            "label": "March 2023"
+            "icon": "CreditCard"
           },
           {
             "label": "February 2023",
@@ -79,9 +84,9 @@
             "icon": "CreditCard"
           },
           {
+            "icon": "CreditCard",
             "label": "January 2023",
-            "href": "/jan-23.pdf",
-            "icon": "CreditCard"
+            "href": "/jan-23.pdf"
           }
         ],
         "style": {
