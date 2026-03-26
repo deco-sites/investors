@@ -127,7 +127,7 @@
         }
       ],
       "background": {
-        "backgroundColor": "#07401a"
+        "backgroundColor": "transparent"
       },
       "__resolveType": "site/sections/Links/LinkTree.tsx"
     }
