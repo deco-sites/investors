@@ -111,17 +111,17 @@
       },
       "social": [
         {
-          "href": "https://www.instagram.com/deco.cx/",
+          "href": "https://www.instagram.com/decocms/",
           "label": "Instagram",
           "iconColor": "#FFFFFF"
         },
         {
-          "href": "https://www.linkedin.com/company/deco-cx",
+          "href": "https://www.linkedin.com/company/decocms/",
           "label": "Linkedin",
           "iconColor": "#FFFFFF"
         },
         {
-          "href": "https://deco.cx/discord",
+          "href": "https://decocms.com/discord",
           "label": "Discord",
           "iconColor": "#FFFFFF"
         }
