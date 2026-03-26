@@ -18,6 +18,10 @@ export default defineApp(async (_req, ctx) => {
         {/* Tailwind v3 CSS file */}
         <link href={asset(`/styles.css?revision=${revision}`)} rel="stylesheet"/>
 
+        {/* Favicon */}
+        <link rel="icon" type="image/png" href="https://assets.decocache.com/investors/a252c16b-0755-45ad-859b-5ebb08a4a64d/neg-d-logo.png"/>
+        <link rel="apple-touch-icon" href="https://assets.decocache.com/investors/a252c16b-0755-45ad-859b-5ebb08a4a64d/neg-d-logo.png"/>
+
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")}/>
       </Head>

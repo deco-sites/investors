@@ -55,6 +55,7 @@ export interface Style {
    */
   textColor: string;
   gradientColors: Gradient;
+  backgroundColors?: BackgroundColors;
 }
 
 export interface Gradient {
@@ -65,6 +66,11 @@ export interface Gradient {
 export interface Neutral {
   /**  @format color */
   color: string;
+}
+
+export interface BackgroundColors {
+  neutral?: Neutral[];
+  hover?: Neutral[];
 }
 
 export interface Social {
@@ -115,27 +121,18 @@ function Links(props: Props) {
     ? <a href={header?.logo?.link!} target="_blank">{logo}</a>
     : logo;
 
-  const ColorsNeutralAndHover = {
-    color: links.style?.textColor,
-    backgroundImage: `linear-gradient(to right, ${
-      links.style?.gradientColors.neutral.map((color) => color.color).join(
-        ", ",
-      )
-    })`,
-  };
-
   return (
     <BaseContainer background={background}>
       <header class="flex flex-col justify-center items-center gap-4">
         {header?.logo?.img && (
-          <div class="rounded-full p-4">
+          <div class="p-4">
             {maybeLink}
           </div>
         )}
 
         {header?.title && (
           <h1
-            class="text-5xl font-bold text-center"
+            class="text-4xl font-semibold text-center tracking-tight"
             style={{ color: header.textColor }}
           >
             {header?.title}
@@ -144,6 +141,7 @@ function Links(props: Props) {
 
         {header?.description && (
           <p
+            class="text-base opacity-70"
             style={{ color: header.textColor }}
           >
             {header?.description}
@@ -151,34 +149,30 @@ function Links(props: Props) {
         )}
       </header>
 
-      <main class="w-full">
-        <ul class="flex flex-col justify-center items-center gap-4">
+      <main class="w-full flex justify-center">
+        <ul class="flex flex-col items-center gap-3 w-full max-w-[420px]">
           {links?.items?.map((link) => (
             <li class="w-full">
               <a
                 target="_blank"
                 href={link.href}
-                class="group h-[52px] px-6 rounded-full flex justify-start items-center font-bold gap-4"
-                style={ColorsNeutralAndHover}
+                class="group h-[72px] px-6 rounded-lg flex justify-center items-center gap-4 bg-white transition-all duration-200 hover:bg-gray-100 hover:shadow-md"
+                style={{
+                  color: "#07401a",
+                }}
               >
-                {Boolean(link.icon) && (
-                  <Icon
-                    size={20}
-                    id={link.icon!}
-                    strokeWidth={2.5}
-                  />
-                )}
-
-                <span class="w-full text-center text-sm">
-                  {link.label}
+                <span class="flex items-center gap-3">
+                  {Boolean(link.icon) && (
+                    <Icon
+                      size={18}
+                      id={link.icon!}
+                      strokeWidth={2}
+                    />
+                  )}
+                  <span class="text-sm font-semibold">
+                    {link.label}
+                  </span>
                 </span>
-
-                <Icon
-                  size={20}
-                  id="share"
-                  strokeWidth={2}
-                  class="opacity-0 group-hover:opacity-100"
-                />
               </a>
             </li>
           ))}
@@ -186,14 +180,14 @@ function Links(props: Props) {
       </main>
 
       <footer class="flex flex-1 flex-col">
-        <ul class="flex flex-row gap-4 mb-10 justify-center items-center">
+        <ul class="flex flex-row gap-5 mb-10 justify-center items-center">
           {social?.map((link) => (
             <li>
               <a
                 target="_blank"
                 href={link.href}
                 title={link.label}
-                class="text-white block rounded"
+                class="block rounded opacity-60 hover:opacity-100 transition-opacity duration-200"
               >
                 <Icon
                   size={20}
@@ -211,7 +205,7 @@ function Links(props: Props) {
           <div class="mt-auto">
             <a
               href={props.footer.url}
-              class="text-xs flex flex-row items-center justify-center gap-1"
+              class="text-xs flex flex-row items-center justify-center gap-1 opacity-50 hover:opacity-80 transition-opacity"
               target="_blank"
             >
               {props.footer.text && (
@@ -245,17 +239,16 @@ function BaseContainer(props: {
   const baseClasses = "flex justify-center w-full min-h-screen";
   const inlineStyle = image ? { background: `url(${image})` } : undefined;
   const backgroundColors = props?.background?.backgroundColor;
-  const containerClasses = `${baseClasses}`;
 
   return (
     <div
-      class={containerClasses}
+      class={baseClasses}
       style={{
         ...inlineStyle,
         backgroundColor: backgroundColors ? backgroundColors : undefined,
       }}
     >
-      <div class="flex flex-col items-center gap-12 p-10 max-w-[640px] w-full">
+      <div class="flex flex-col items-center gap-16 p-10 max-w-[560px] w-full">
         {props.children}
       </div>
     </div>

@@ -12,8 +12,12 @@
       "links": {
         "items": [
           {
-            "label": "October 2025 (Q3 2025)",
-            "href": "https://assets.decocache.com/investors/75334a29-10f3-48cd-8d35-c18ca3b70a63/October-13th-2025---Investor-Updates.pdf"
+            "label": "January 2026 (Q4 2025)",
+            "href": "https://assets.decocache.com/investors/1fa12a76-d26d-4ead-be9e-ef8f716e11ad/2026-01-investor-updates.pdf"
+          },
+          {
+            "href": "https://assets.decocache.com/investors/75334a29-10f3-48cd-8d35-c18ca3b70a63/October-13th-2025---Investor-Updates.pdf",
+            "label": "October 2025 (Q3 2025)"
           },
           {
             "href": "https://assets.decocache.com/investors/b3fa564a-9de0-4ed9-a792-ebf0a07720f7/q2-2025.pdf",
@@ -49,72 +53,46 @@
           },
           {
             "href": "/oct-nov-23.pdf",
-            "icon": "CreditCard",
             "label": "October/November 2023"
           },
           {
             "href": "/aug-sep-23.pdf",
-            "icon": "CreditCard",
             "label": "August/September 2023"
           },
           {
             "href": "/jun-jul-23.pdf",
-            "icon": "CreditCard",
             "label": "June/July 2023"
           },
           {
             "href": "/may-jun-23.pdf",
-            "icon": "CreditCard",
             "label": "May/June 2023"
           },
           {
-            "href": "/apr-23.pdf",
-            "icon": "CreditCard",
-            "label": "April 2023"
+            "label": "April 2023",
+            "href": "/apr-23.pdf"
           },
           {
             "label": "March 2023",
-            "href": "/mar-23.pdf",
-            "icon": "CreditCard"
+            "href": "/mar-23.pdf"
           },
           {
             "label": "February 2023",
-            "href": "/feb-23.pdf",
-            "icon": "CreditCard"
+            "href": "/feb-23.pdf"
           },
           {
-            "icon": "CreditCard",
             "label": "January 2023",
             "href": "/jan-23.pdf"
           }
         ],
         "style": {
-          "textColor": "#000000",
+          "textColor": "#FFFFFF",
           "gradientColors": {
             "neutral": [
               {
-                "color": "#2fd07f"
+                "color": "#02F67C"
               },
               {
-                "color": "#1ae000"
-              }
-            ]
-          },
-          "backgroundColors": {
-            "hover": [
-              {
-                "color": "#6b6b6b"
-              },
-              {
-                "color": "#c4c4c4"
-              }
-            ],
-            "neutral": [
-              {
-                "color": "#919191"
-              },
-              {
-                "color": "#cccccc"
+                "color": "#02F67C"
               }
             ]
           }
@@ -123,33 +101,33 @@
       "header": {
         "link": "https://deco.cx",
         "logo": {
-          "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/3fa15eff-add9-4974-864c-7f952bca5180",
+          "img": "https://assets.decocache.com/investors/a2000fd8-33ce-46ce-9b9f-626a6bb505fb/neg-deco-logo.png",
           "width": 150,
           "height": 63
         },
         "title": "Investors",
-        "textColor": "#000000",
+        "textColor": "#FFFFFF",
         "description": "Check our latest Investor Updates"
       },
       "social": [
         {
           "href": "https://www.instagram.com/deco.cx/",
           "label": "Instagram",
-          "iconColor": "#000000"
+          "iconColor": "#FFFFFF"
         },
         {
           "href": "https://www.linkedin.com/company/deco-cx",
           "label": "Linkedin",
-          "iconColor": "#000000"
+          "iconColor": "#FFFFFF"
         },
         {
           "href": "https://deco.cx/discord",
           "label": "Discord",
-          "iconColor": "#000000"
+          "iconColor": "#FFFFFF"
         }
       ],
       "background": {
-        "backgroundColor": "#e5fbe5"
+        "backgroundColor": "#07401a"
       },
       "__resolveType": "site/sections/Links/LinkTree.tsx"
     }
