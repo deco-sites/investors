@@ -25,8 +25,8 @@ const DEFAULT_PROPS = {
     banners: [
         {
             image: {
-                mobile: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/91102b71-4832-486a-b683-5f7b06f649af",
-                desktop: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ec597b6a-dcf1-48ca-a99d-95b3c6304f96",
+                mobile: "https://decoims.com/investors/d9affe01-28c8-4f40-8e6e-31edd7f077ac/7ee0ee2e45e2e5d4.png",
+                desktop: "https://decoims.com/investors/fcd19909-8909-469a-af55-2ee2fc5a31ee/2cf8c9a31c6df315.png",
                 alt: "a",
             },
             title: "Woman",
