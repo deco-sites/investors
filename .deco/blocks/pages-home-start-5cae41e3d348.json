@@ -12,8 +12,12 @@
       "links": {
         "items": [
           {
-            "label": "January 2026 (Q4 2025)",
-            "href": "https://assets.decocache.com/investors/1fa12a76-d26d-4ead-be9e-ef8f716e11ad/2026-01-investor-updates.pdf"
+            "label": "April 2026 (Q1 2026)",
+            "href": "https://www.decocms.com/investors-q2-2026"
+          },
+          {
+            "href": "https://assets.decocache.com/investors/1fa12a76-d26d-4ead-be9e-ef8f716e11ad/2026-01-investor-updates.pdf",
+            "label": "January 2026 (Q4 2025)"
           },
           {
             "href": "https://assets.decocache.com/investors/75334a29-10f3-48cd-8d35-c18ca3b70a63/October-13th-2025---Investor-Updates.pdf",
@@ -64,8 +68,8 @@
             "label": "June/July 2023"
           },
           {
-            "href": "/may-jun-23.pdf",
-            "label": "May/June 2023"
+            "label": "May/June 2023",
+            "href": "/may-jun-23.pdf"
           },
           {
             "label": "April 2023",
