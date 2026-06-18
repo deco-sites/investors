@@ -27,11 +27,11 @@ export default defineApp(async (_req, ctx) => {
         <link
           rel="icon"
           type="image/png"
-          href="https://assets.decocache.com/investors/a252c16b-0755-45ad-859b-5ebb08a4a64d/neg-d-logo.png"
+          href="https://decoims.com/investors/d87980a9-c147-4dba-9b05-e99138fc6cd3/neg-d-logo.png"
         />
         <link
           rel="apple-touch-icon"
-          href="https://assets.decocache.com/investors/a252c16b-0755-45ad-859b-5ebb08a4a64d/neg-d-logo.png"
+          href="https://decoims.com/investors/d87980a9-c147-4dba-9b05-e99138fc6cd3/neg-d-logo.png"
         />
         <link rel="manifest" href={asset("/site.webmanifest")} />
         <style>{`html, body { background: #070707; margin: 0; padding: 0; }`}</style>
