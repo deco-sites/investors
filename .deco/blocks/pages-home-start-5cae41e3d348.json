@@ -12,8 +12,12 @@
       "links": {
         "items": [
           {
-            "label": "April 2026 (Q1 2026)",
+            "label": "July 2026 (Q2 2026)",
             "href": "https://www.decocms.com/investors-q2-2026"
+          },
+          {
+            "href": "https://www.decocms.com/investors-q1-2026",
+            "label": "April 2026 (Q1 2026)"
           },
           {
             "href": "https://decoims.com/investors/012060a8-68b5-49eb-a6ab-cd9141f2d6d4/2026-01-investor-updates.pdf",
@@ -64,8 +68,8 @@
             "label": "August/September 2023"
           },
           {
-            "href": "/jun-jul-23.pdf",
-            "label": "June/July 2023"
+            "label": "June/July 2023",
+            "href": "/jun-jul-23.pdf"
           },
           {
             "label": "May/June 2023",
