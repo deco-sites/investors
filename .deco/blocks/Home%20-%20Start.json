@@ -5,9 +5,18 @@
     "description": "This is a site template for deco.cx"
   },
   "global": [],
-  "routes": [{ "__resolveType": "website/loaders/pages.ts" }],
-  "caching": { "directives": [] },
-  "commerce": { "platform": "other" },
+  "routes": [
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "commerce": {
+    "platform": "other"
+  },
   "platform": "custom",
-  "__resolveType": "site/apps/site.ts"
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": false
 }
