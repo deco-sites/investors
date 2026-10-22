@@ -1,7 +1,7 @@
 {
   "redirect": {
     "from": "/*",
-    "to": "https://decocms.com/investors",
+    "to": "https://www.decocms.com/investors",
     "type": "permanent"
   },
   "__resolveType": "website/loaders/redirect.ts"
